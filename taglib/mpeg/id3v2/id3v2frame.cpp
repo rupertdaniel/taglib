@@ -394,6 +394,12 @@ namespace
     { "WFED", "PODCASTURL" },
     { "MVNM", "MOVEMENTNAME" },
     { "MVIN", "MOVEMENTNUMBER" },
+    // Beatport Pro frames
+    { "TVOX", "VOCAL" },
+    { "TVNU", "VENUE" },
+    { "TSTM", "SETTIME" },
+    { "TNRG", "ENERGY" },
+    { "TAUT", "AUDIOTYPE" },
   };
   const size_t frameTranslationSize = sizeof(frameTranslation) / sizeof(frameTranslation[0]);
 
